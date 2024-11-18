@@ -13,7 +13,7 @@ namespace VGAudio.Cli
         private Configuration Configuration { get; set; }
         private ContainerType OutType { get; set; }
 
-        public static byte[] ConvertFile(Options options, MemoryStream inputStream, FileType inputFileType, FileType outputFileType)
+        public static byte[] ConvertFile(Options options, Stream inputStream, FileType inputFileType, FileType outputFileType)
         {
             if (options.Job != JobType.Convert && options.Job != JobType.Batch) return null;
 
