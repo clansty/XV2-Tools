@@ -35,7 +35,7 @@
     <DefineConstants>TRACE;UndoRedo, NvvmLight</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
